@@ -127,6 +127,75 @@
             <rekrutacja>http://www.rekrutacja.pwsz.nysa.pl/kierunki_fil_ang.php</rekrutacja>
         </kierunek>
         <kierunek>
+            <nazwa>Filologia germańska</nazwa>
+            <stopien>Licencjat</stopien>
+            <szerokosc>50.478823</szerokosc>
+            <dlugosc>17.320645</dlugosc>
+            <specjalnosci>
+                Nauczycielska - multimedia w nauczaniu języka niemieckiego, tłumaczenia w biznesie - język niemiecki,
+                filologia germańska ogólna
+            </specjalnosci>
+            <czas>6 semestrów (3 roku)</czas>
+            <tryb>Stacjonarne, niestacjonarne</tryb>
+            <kwalifikacje>
+                Silna pozycja gospodarcza Niemiec w świecie sprawia, że znajomość języka niemieckiego to dzisiaj klucz
+                do sukcesu. Nie tylko niemieccy pracodawcy, ale również inne firmy, posiadające sieć międzynarodowych
+                kontaktów, chętnie zatrudniają osoby ze znajomością tego języka. Studia na filologii germańskiej w Nysie
+                pozwalają nie tylko na zdobycie wysokich kompetencji językowych, lecz przede wszystkim dają konkretne
+                przygotowanie zawodowe w ramach dwóch specjalizacji: nauczycielskiej oraz tłumaczeniowej w zakresie
+                języka biznesu.
+                JAK UCZYMY?
+                Nowością na filologii germańskiej w Nysie jest przejście na praktyczny profil nauczania. Oznacza to:
+                jeszcze więcej zajęć praktycznych,
+                szerszy wachlarz możliwości praktyk, m.in. w partnerskich instytucjach zagranicznych,
+                intensywne kształcenie językowe od pierwszego semestru (również w grupach dla początkujących). Uczymy z
+                zastosowaniem nowoczesnych technologii: laboratorium językowego oraz programów komputerowych
+                wspomagających tłumaczenie. Stosujemy konwencjonalne i mniej konwencjonalne metody nauczania: projekty
+                studenckie, podróże dydaktyczne, zajęcia w terenie. Nasza kadra to praktycy - wykładowcy ze znaczącym
+                dorobkiem naukowym i doświadczeniem jako:
+                tłumacze przysięgli,
+                egzaminatorzy językowi Instytutu Goethego i TELC,
+                teacher-trenerzy.
+            </kwalifikacje>
+            <dziekanat>Budynek A, ul. Ujejskiego 12, 48-300 Nysa, pokój 205</dziekanat>
+            <telefon>77 4091175</telefon>
+            <rekrutacja>http://www.rekrutacja.pwsz.nysa.pl/kierunki_fil_ger.php</rekrutacja>
+        </kierunek>
+        <kierunek>
+            <nazwa>Finanse i rachunkowość</nazwa>
+            <stopien>Licencjat</stopien>
+            <szerokosc>50.478823</szerokosc>
+            <dlugosc>17.320645</dlugosc>
+            <specjalnosci>
+                Rachunkowość i kontrola finansowa, finanse przedsiębiorstw
+            </specjalnosci>
+            <czas>6 semestrów (3 roku)</czas>
+            <tryb>Stacjonarne, niestacjonarne</tryb>
+            <kwalifikacje>
+                Kierunek finanse i rachunkowość kształci w zawodach, w których specjaliści są najbardziej poszukiwani na
+                rynku pracy. Misją kierunku jest kształcenie i rozwijanie umiejętności, pozwalających zarówno na dalszą
+                naukę w Polsce lub na świecie, jak i rozpoczęcie po studiach pracy.
+                Proces kształcenia jest nastawiony na to, co najbardziej cenią sobie pracodawcy (wg danych z analiz
+                marketingowych rynku pracy)  umiejętność samodzielnej pracy i analityczne podejście do zadań stawianych
+                przed pracownikami kadry finansowej i zarządzającej. Osiągnięciu tych kwalifikacji sprzyjają również
+                nowoczesne laboratoria Instytutu Finansów, duża liczba zajęć projektowych i wysoki poziom nowoczesnego
+                kształcenia informatycznego studentów. Cechą, która w sposób jednoznaczny wyróżnia kierunek finanse i
+                rachunkowość spośród innych kierunków ekonomicznych, jest położenie w trakcie procesu dydaktycznego
+                szczególnego nacisku na finansowy wymiar funkcjonowania podmiotów gospodarczych, rynków i gospodarek.
+                Dodatkowym uzupełnieniem wiedzy teoretycznej są praktyki, które odbywają się m.in. w bankach, biurach
+                rachunkowych, wiodących zakładach produkcyjnych lub usługowych. Wielu z naszych absolwentów kontynuuje
+                studia na renomowanych uczelniach Polski, gdzie wykształcenie uzyskane w naszej Uczelni jest wysoko
+                oceniane.
+                JAK UCZYMY?
+                Zatrudniamy wybitnych nauczycieli akademickich z wieloletnią praktyką dydaktyczną zdobytą na najlepszych
+                polskich uczelniach. Są to specjaliści, których prace są publikowane nie tylko w Polsce, ale także na
+                całym świecie.
+            </kwalifikacje>
+            <dziekanat>Budynek A, ul. Ujejskiego 12, 48-300 Nysa, pokój 205</dziekanat>
+            <telefon>77 4091175</telefon>
+            <rekrutacja>http://www.rekrutacja.pwsz.nysa.pl/kierunki_fil_ger.php</rekrutacja>
+        </kierunek>
+        <kierunek>
             <nazwa>Informatyka</nazwa>
             <stopien>Inżynier</stopien>
             <szerokosc>50.474723</szerokosc>
@@ -158,6 +227,226 @@
             <dziekanat>Budynek A, ul. Chodowieckiego 4, 48-300 Nysa, pokój 208</dziekanat>
             <telefon>77 4091163</telefon>
             <rekrutacja>http://www.rekrutacja.pwsz.nysa.pl/kierunki_informatyka.php</rekrutacja>
+        </kierunek>
+        <kierunek>
+            <nazwa>Jazz i muzyka estradowa</nazwa>
+            <stopien>Licencjat</stopien>
+            <szerokosc>50.474723</szerokosc>
+            <dlugosc>17.337611</dlugosc>
+            <specjalnosci>
+                Wokalistyka jazzowa, instrumentalistyka jazzowa: fortepian, gitara basowa, kontrabas, gitara, saksofon,
+                trąbka, puzon, perkusja, realizacja dźwięku, edukacja artystyczna w jazzie i muzyce estradowej
+            </specjalnosci>
+            <czas>6 semestrów (3 lata)</czas>
+            <tryb>Stacjonarne, niestacjonarne</tryb>
+            <kwalifikacje>
+                Kształcenie na tym kierunku jest realizowane poprzez poddanie muzyki analizie formy i struktury ze
+                wskazaniem na zasób wiedzy teoretycznej i warsztat wykonawczy studenta. Student zdobywa wiedzę poprzez
+                analizę literatury, posługiwanie się techniką instrumentalną i wokalną w interpretacji dzieł muzycznych,
+                komponowanie i aranżowanie utworów w różnej stylistyce i ekspresji. Ponadto poznaje zasady i
+                funkcjonowanie instytucji, w których będzie się w przyszłości realizował.
+                CZEGO UCZYMY?
+                Umiejętności jazzowej gry na wybranym instrumencie lub jazzowego śpiewu. Wszystkie niezbędne przedmioty
+                i zagadnienia dotyczące rozwoju muzyka prowadzone są na poziomie akademickim. Student ma także możliwość
+                dodatkowego rozwoju poprzez działalność w kołach naukowych.
+                Na specjalności realizacja dźwięku podstawowym założeniem jest przede wszystkim nauczanie studenta
+                nowoczesnych i aktualnych technik sztuki realizacji nagłośnień i produkcji muzycznej. Podstawowym
+                narzędziem pracy w obu przypadkach jest komputer i DAW, czyli w wolnym tłumaczeniu wirtualne środowisko
+                muzyczne (program), w którym odbywa się w zasadzie cały proces pracy nad dźwiękiem. Mowa tu m.in. o
+                montażu, edycji, miksie, aranżacji, masteringu i wielu innych. Student po ukończeniu nauki będzie
+                bezwzględnie posiadać wiedzę, jak obsługiwać podstawowe narzędzie pracy na stanowisku realizatora
+                dźwięku.
+                Edukacja artystyczna to specjalność, która czerpie zarówno z bogactwa muzyki klasycznej, jak i
+                otwartości muzyki jazzowej. Instytut Jazzu PWSZ w Nysie prowadzi szeroko zakrojoną współpracę z
+                ośrodkami Orffa w Europie oraz współpracę międzynarodową i współpracę ze znaczącymi ośrodkami muzycznymi
+                (uczelniami, jednostkami badawczymi, wydawnictwami) w Polsce i w Europie.
+            </kwalifikacje>
+            <dziekanat>Budynek A, ul. Chodowieckiego 4, 48-300 Nysa, pokój 206</dziekanat>
+            <telefon>77 4091176</telefon>
+            <rekrutacja>http://www.rekrutacja.pwsz.nysa.pl/kierunki_jazz.php</rekrutacja>
+        </kierunek>
+        <kierunek>
+            <nazwa>Kosmetologia</nazwa>
+            <stopien>Licencjat</stopien>
+            <szerokosc>50.478823</szerokosc>
+            <dlugosc>17.320645</dlugosc>
+            <specjalnosci>
+                Farmakologia, kosmetologia pielęgnacyjna i upiększająca, dermatologia
+            </specjalnosci>
+            <czas>6 semestrów (3 lata)</czas>
+            <tryb>Stacjonarne, niestacjonarne</tryb>
+            <kwalifikacje>
+                Posiadamy największy limit miejsc, a o przyjęciu decyduje konkurs świadectw. Na studiach
+                niestacjonarnych proponujemy konkurencyjne czesne i nie wymagamy tytułu technika usług kosmetycznych.
+                Posiadamy zaplecze dydaktyczne na najwyższym poziomie - Uczelnia dysponuje trzema pracowniami
+                kosmetologii, które znajdują się w nowym budynku i są wyposażone w najnowszy sprzęt wysokiej klasy. W
+                trakcie nauki zapewniamy profesjonalne kosmetyki, na których studenci uczą się i pracują. Wykłady
+                prowadzone są w budynku posiadającym nowocześnie wyposażone sale wykładowe (projektory multimedialne,
+                laptopy, strefa Wi-Fi). Ponadto Uczelnia dysponuje nowymi i doskonale wyposażonymi pracowniami, m.in.
+                chemii, anatomii, fizjologii, fizjoterapii i masażu, salą fitness oraz pracowniami komputerowymi. Nauka
+                prowadzona jest przez wysoko wykwalifikowaną kadrę dydaktyczno-naukową.
+                JAK UCZYMY?
+                W pracowniach kosmetologii i fizjoterapii studenci pracują w parach, co daje możliwość osobistego
+                odczucia efektów zabiegu, jak i jego wykonania (każda para ma do dyspozycji w pełni wyposażone
+                stanowisko do pracy  profesjonalny sprzęt wiodących firm kosmetycznych i medycznych).
+                CZEGO UCZYMY?
+                W ramach kierunku prowadzone są dwie specjalności: kosmetologia specjalistyczna oraz chemia i
+                technologia kosmetyków. Absolwent po ukończeniu nauki zdobywa wyższe wykształcenie zawodowe w zakresie
+                kosmetologii i tytuł licencjata - kosmetologa.
+            </kwalifikacje>
+            <dziekanat>Budynek D, ul. Ujejskiego 12, 48-300 Nysa, pokój 122</dziekanat>
+            <telefon>77 4355955</telefon>
+            <rekrutacja>http://www.rekrutacja.pwsz.nysa.pl/kierunki_kosmetologia.php</rekrutacja>
+        </kierunek>
+        <kierunek>
+            <nazwa>Pielęgniarstwo</nazwa>
+            <stopien>Licencjat pielęgniarstwa</stopien>
+            <szerokosc>50.478823</szerokosc>
+            <dlugosc>17.320645</dlugosc>
+            <specjalnosci>
+                Licencjat pielęgniarstwa ,magister pielęgniarstwa
+            </specjalnosci>
+            <czas>Licencjat: 6 semestrów (3 lata), Magister: 4 semestry (2 lata)</czas>
+            <tryb>Licencjat: stacjonarne, Magister: stacjonarne, niestacjonarne</tryb>
+            <kwalifikacje>
+                W Instytucie Nauk Medycznych student nie jest anonimowy. Zajęcia praktyczne odbywają się w szpitalu
+                niedaleko Uczelni, a studenci, poza nauką, mają czas na życie studenckie oraz wyjazdy zagraniczne,
+                umożliwiające zdobycie nowych doświadczeń.
+                Jako nieliczni w Polsce uwzględniamy w programie studiów problemy starzejącego się społeczeństwa,
+                stanowiące ogromne wyzwanie na całym świecie. W naszej Uczelni istnieje możliwość rozwoju dodatkowych
+                kompetencji z zakresu psychoterapii, seksuologii czy też nabycie uprawnień trenera predyspozycji
+                osobowościowych.
+                Współpraca z renomowanymi uczelniami zagranicznymi zwiększa też możliwości zatrudnienia naszych
+                absolwentów na terenie kraju i poza jego granicami. Kwalifikacje magistra pielęgniarstwa powszechnie
+                uznawane w krajach Unii Europejskiej stanowią także przepustkę do ubiegania się i uzyskania wyższych
+                stopni naukowych.
+                JAK UCZYMY?
+                Zajęcia prowadzone są przez wykwalifikowaną kadrę medyczną. Odbywają się w salach wykładowych,
+                wyposażonych w nowoczesny sprzęt multimedialny i wzorowo przygotowanych pracowniach ćwiczeniowych. W
+                czasie ćwiczeń studenci poznają zasady, techniki i procedury wykonywania zabiegów
+                pielęgnacyjno-leczniczych. W warunkach symulacyjnych (na fantomach) kształtowane są umiejętności
+                praktyczne, a metodą przypadków studenci uczą się rozwiązywania problemów pielęgnacyjnych pacjenta
+                zgodnie z obowiązującymi procedurami i standardami.
+                Zajęcia praktyczne odbywają się w placówkach służby zdrowia (oddziały szpitalne, przychodnie, żłobki)
+                pod kierunkiem nauczycieli akademickich. Kształcenie praktyczne obejmuje również kształtowanie właściwej
+                postawy zawodowej: poczucie odpowiedzialności za drugiego człowieka, empatii, sumienności oraz właściwej
+                współpracy w zespole interdyscyplinarnym.
+            </kwalifikacje>
+            <dziekanat>Budynek D, ul. Ujejskiego 12, 48-300 Nysa, pokój 119</dziekanat>
+            <telefon>77 4355952, 77 4355951</telefon>
+            <rekrutacja>http://www.rekrutacja.pwsz.nysa.pl/kierunki_pielegniarstwo.php</rekrutacja>
+        </kierunek>
+        <kierunek>
+            <nazwa>Psychofizyczne kształtowanie człowieka</nazwa>
+            <stopien>Licencjat</stopien>
+            <szerokosc>50.478823</szerokosc>
+            <dlugosc>17.320645</dlugosc>
+            <specjalnosci>
+                Trener osobisty, rekreacja psychoruchowa
+            </specjalnosci>
+            <czas>6 semestrów (3 lata)</czas>
+            <tryb>Stacjonarne, niestacjonarne</tryb>
+            <kwalifikacje>
+                Pierwszy w Polsce nowatorski kierunek studiów łączący całą wiedzę potrzebną do pracy jako trener
+                osobisty. Jeśli chcesz wiedzieć, jak skutecznie prowadzić trening psychofizyczny każdego człowieka, tak
+                aby osiągnąć wspólny sukces - ten kierunek jest właśnie dla Ciebie - wybierz:
+                - TRENER OSOBISTY
+                - REKREACJA PSYCHORUCHOWA
+                JAK UCZYMY?
+                Wiedza poparta wieloletnim doświadczeniem przekazywana jest studentom przez specjalistów z wielu
+                dziedzin, m.in. z obszaru nauk społecznych i przyrodniczych, psychologii, żywienia człowieka i sportu.
+                Zajęcia prowadzone są z użyciem nowoczesnego sprzętu zarówno sportowego, jak i multimedialnego.
+                CZEGO UCZYMY?
+                • Jak oddziaływać na osobowość i organizm ludzki w celu zaspokojenia jego potrzeb w zakresie aktywności
+                psychofizycznej i aktywnego stylu życia,
+                • jak samodzielnie planować, realizować i oceniać aktywność fizyczną, rozwój osobowości i zdrowe
+                żywienie człowieka,
+                • jak mediować i negocjować zarówno z jednostkami, jak i grupami w zróżnicowanych środowiskach i
+                kontekstach społecznych,
+                • jak organizować i prowadzić zajęcia rekreacyjno-ruchowe dostosowane do warunków, możliwości, potrzeb
+                oraz zainteresowań uczestników zróżnicowanych wiekiem, stanem zdrowia i zainteresowaniami,
+                • dajemy praktyczne umiejętności ruchowe z zakresu wybranych form aktywności fizycznej, pozwalające na
+                prowadzenie zajęć z osobami w różnym wieku,
+                • dajemy wiedzę o roli żywienia i żywności w aktywnym stylu życia i ich wpływie na psychomotorykę i
+                możliwości organizmu oraz o roli suplementacji w sporcie,
+                • dajemy wiedzę z psychologii, ogólnej teorii osobowości i poradnictwa psychologicznego.
+            </kwalifikacje>
+            <dziekanat>Budynek D, ul. Ujejskiego 12, 48-300 Nysa, pokój 119</dziekanat>
+            <telefon>77 4355952</telefon>
+            <rekrutacja>http://www.rekrutacja.pwsz.nysa.pl/kierunki_trener_osobisty.php</rekrutacja>
+        </kierunek>
+        <kierunek>
+            <nazwa>Ratownictwo medyczne</nazwa>
+            <stopien>Licencjat</stopien>
+            <szerokosc>50.478823</szerokosc>
+            <dlugosc>17.320645</dlugosc>
+            <specjalnosci>
+                Ratownik medyczny
+            </specjalnosci>
+            <czas>6 semestrów (3 lata)</czas>
+            <tryb>Stacjonarne, niestacjonarne</tryb>
+            <kwalifikacje>
+                Ratownik medyczny jest kluczową postacią w systemie zintegrowanego ratownictwa medycznego w Polsce. Jego
+                kwalifikacje są powszechnie uznawane w krajach Unii Europejskiej. Zadania z zakresu ratowania osób w
+                stanie bezpośredniego zagrożenia życia lub zdrowia realizuje samodzielnie lub współdziała na zasadach
+                partnerstwa z lekarzem przy ratowaniu osób w stanie bezpośredniego zagrożenia życia lub zdrowia.
+                Celem kształcenia na kierunku ratownictwo medyczne jest wyszkolenie kadry ratowników medycznych mających
+                wiedzę, umiejętności i kompetencje umożliwiające podjęcie medycznych czynności ratunkowych w warunkach
+                przedszpitalnych i w szpitalnym oddziale ratunkowym.
+                CZEGO UCZYMY?
+                Ratownik medyczny rozpoznaje stany nagłego zagrożenia zdrowotnego, prawidłowo interpretuje za pomocą
+                monitora lub EKG mechanizmy zatrzymania krążenia, wykonuje defibrylację, wykonuje badanie EKG,
+                monitoruje czynności układu oddechowego i układu krwionośnego, prowadzi podstawowe i zaawansowane
+                techniki RKO u osób dorosłych, dzieci, niemowlaków oraz noworodków, wykonuje intubację dotchawiczną,
+                kaniulację żył obwodowych oraz żyły szyjnej zewnętrznej, podaje leki drogą dożylną, doszpikową,
+                dotchawiczą, domięśniową, podskórną oraz wziewną, wykonuje cewnikowanie pęcherza moczowego, zabezpiecza
+                ranę chirurgicznie, wykonuje dekompresję odmy opłucnowej prężnej potwierdzonej badaniem fizykalnym.
+                W Instytucie podejmowane są praktyczne działania, niejednokrotnie wychodzące poza ramy tzw. nauczania
+                akademickiego: organizowane są zawody w ratownictwie medycznym, imprezy integracyjne. Studenci
+                współpracują ze służbami państwowymi, angażując się w zabezpieczenia imprez masowych, kształtując w ten
+                sposób postawy i nawyki, które w systemie ratownictwa medycznego są bazowe i powinny być spontaniczne.
+                Uczelnia motywuje i wspiera prowadzenie działalności edukacyjnej przez studentów, a także stwarza
+                możliwość kształcenia na terenie UE i Turcji.
+            </kwalifikacje>
+            <dziekanat>Budynek D, ul. Ujejskiego 12, 48-300 Nysa, pokój 121</dziekanat>
+            <telefon>77 4355953</telefon>
+            <rekrutacja>http://www.rekrutacja.pwsz.nysa.pl/kierunki_rat_med.php</rekrutacja>
+        </kierunek>
+        <kierunek>
+            <nazwa>Zarządzanie i inżynieria produkcji</nazwa>
+            <stopien>Inżynier</stopien>
+            <szerokosc>50.474723</szerokosc>
+            <dlugosc>17.337611</dlugosc>
+            <specjalnosci>
+                Automatyzacja produkcji i systemy mechatroniczne, zarządzanie produkcją i usługami, inżynieria jakości,
+                zarządzanie innowacjami i projektami
+            </specjalnosci>
+            <czas>7 semestrów (3,5 roku)</czas>
+            <tryb>Stacjonarne, niestacjonarne</tryb>
+            <kwalifikacje>
+                Tym, co wyróżnia nasz kierunek jest przywiązywanie wagi do zdobywania umiejętności praktycznych. Zdobyta
+                wiedza - dzięki wykwalifikowanej kadrze dydaktycznej - zamieniana jest na praktykę w nowoczesnych
+                laboratoriach. To daje ogromną szansę znalezienia atrakcyjnej pracy. Studenci sami proponują tematy prac
+                dyplomowych, a praktyka zawodowa ma pomóc im w realizacji wybranego tematu. Kierunek zarządzanie i
+                inżynieria produkcji należy też uważać za najbardziej uniwersalny pod względem możliwości rozpoczęcia
+                indywidualnej działalności gospodarczej.
+                JAK UCZYMY?
+                Posiadamy nowoczesne pracownie komputerowe, najnowsze oprogramowanie z zakresu zarządzania i inżynierii
+                produkcji, a także nowoczesne laboratoria z fizyki, metrologii i projektowania. Są z nami uznani w kraju
+                i za granicą specjaliści z zarządzania i inżynierii produkcji. Zajęcia prowadzone są w formie wykładów,
+                seminariów, ćwiczeń, projektów i laboratoriów.
+                CZEGO UCZYMY?
+                Kształcenie studentów ukierunkowane jest na zagadnienia wytwarzania i planowania procesów produkcyjnych
+                na bazie poszerzonej wiedzy o zarządzaniu. Absolwenci będą posiadać również wiedzę z zakresu ekonomii i
+                prawa gospodarczego połączoną ze znajomością zaawansowanych technik informatycznych.
+                NIECH INNI CI ZAZDROSZCZĄ
+                Praca dla NASA? Nasi absolwenci spełniają swoje marzenia! Krzysztof Rudnicki w ramach pracy dyplomowej
+                wykonał zapadkę, która została użyta w następcy satelity Hubblee. Może Ty opracujesz coś równie
+                innowacyjnego?
+            </kwalifikacje>
+            <dziekanat>Budynek A, ul. Chodowieckiego 4, 48-300 Nysa, pokój 206</dziekanat>
+            <telefon>77 4091176</telefon>
+            <rekrutacja>http://www.rekrutacja.pwsz.nysa.pl/kierunki_ziip.php</rekrutacja>
         </kierunek>
     </kierunki>
 </xml>

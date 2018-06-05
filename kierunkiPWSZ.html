@@ -49,7 +49,8 @@
             padding: 1%;
             box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
         }
-        .opis{
+
+        .opis {
             overflow-y: auto;
         }
 
@@ -67,12 +68,20 @@
 
 <body>
 <div class="container">
+    <!--Etykieta/Nagłówek-->
     <h1>Kierunki studiów w Państwowej Wyższej Szkoły Zawodowej w Nysie
     </h1>
     <form>
+        <!--Lista rozwijana tworzona skryptem-->
         <select id="lista" class="inputStyle" onchange="onListChange()"></select>
+
+        <!--Miejsce na mapę i opis-->
         <div class="mapANDopis">
+
+            <!--Miejsce na mapę-->
             <div id="map" class="mapy"></div>
+
+            <!--Miejsce na opis-->
             <div class="opis txt-left" id="info">
                 Opis kierunku...
             </div>
@@ -80,7 +89,7 @@
     </form>
 </div>
 
-
+<!--Podłączenie js'a odpowiedzialnego za rysowanie mapy-->
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXU6pA6ExY5R750LyVZj8cspKD06yngIs&callback=initMap"
         type="text/javascript"></script>
@@ -89,21 +98,28 @@
 
 <script>
 
-
+    /**
+     * Tworzenie mapy z opcjonalnym parameterm zawierającym współrzędne oraz zoom
+     * @param mrk
+     */
     function initMap(mrk) {
+
+        // Zmienne
         var zoomen = 13;
-        var centeroriginal = [50.473969,17.336331];
-        var center = [50.473969,17.336331];
+        var centeroriginal = [50.473969, 17.336331];
+        var center = [50.473969, 17.336331];
         var coordy = []
         if (mrk) {
+            // Zmień jeśli podano współrzędne niestandardowe
             zoomen = mrk[2];
             coordy = [mrk[0], mrk[1]];
             center = coordy;
-        }else{
+        } else {
+            // zmień na współrzędne standardowe
             center = centeroriginal;
         }
 
-        // Map options
+        // Opcje mapy
         var options = {
             zoom: zoomen,
             center: {lat: center[0], lng: center[1]},
@@ -112,44 +128,42 @@
             streetViewControl: false,
         }
 
-        // New map
+        // Nowa mapa
         var map = new google.maps.Map(document.getElementById('map'), options);
 
 
-        // Array of markers
+        // Znaczniki na mapie
         var markers =
             {
+                // EasterEgg bo nic nie było o opisie w znaczniku ʕ•ᴥ•ʔ
                 coords: {lat: coordy[0], lng: coordy[1]},
-                content: '<h1>( ͡° ͜ʖ ͡°)<br>Baza: ¯\\_(ツ)_/¯</h1>'
+                content: '<h1>(\\____/)' +
+                '<br>( ͡ ͡° ͜ ʖ ͡ ͡°)' +
+                '<br>\\╭☞ \\╭☞</h1>' +
+                '<br>Najlepszego<br>od<br>Aleksa i Serhiego'
             };
         console.log(markers.coords);
 
+        // Jeśli są nowe współrzędne to dodaj znacznik
         if (mrk) {
             console.log('Dodano punkt');
-            // Add marker
             addMarker(markers);
         }
 
-        // Add Marker Function
+        // Dodanie znacznika na mapę
         function addMarker(props) {
             var marker = new google.maps.Marker({
                 position: props.coords,
                 map: map,
-                //icon:props.iconImage
             });
 
-            // Check for customicon
-            if (props.iconImage) {
-                // Set icon image
-                marker.setIcon(props.iconImage);
-            }
-
-            // Check content
+            // Dodanie info do znacznika
             if (props.content) {
                 var infoWindow = new google.maps.InfoWindow({
                     content: props.content
                 });
 
+                // Otwiera info o znaczniku
                 marker.addListener('click', function () {
                     infoWindow.open(map, marker);
                 });
@@ -157,9 +171,10 @@
         }
     }
 
-
+    // Uruchomienie ajaxa
     loadDoc();
 
+    // Ajax
     function loadDoc() {
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
@@ -174,6 +189,10 @@
     var kList;
     var ddList = '';
 
+    /**
+     * Funkcja wywołana w ajax'ie parsująca xml'a
+     * @param xml
+     */
     function myFunction(xml) {
         var i;
         var xmlDoc = xml.responseXML;
@@ -190,9 +209,11 @@
         console.log('Zmieniono kierunek.');
         var id = document.getElementById("lista").value;
         if (id == 'def') {
+            // Powrót do początkowego stanu
             document.getElementById('info').innerHTML = 'Opis kierunku...';
             initMap();
         } else {
+            // Wyświetlenie odpowiednich informacji
             var i = {
                 'naz': kList[id].getElementsByTagName("nazwa")[0].childNodes[0].nodeValue,
                 'sto': kList[id].getElementsByTagName("stopien")[0].childNodes[0].nodeValue,

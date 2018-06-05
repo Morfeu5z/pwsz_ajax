@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PWSZ Nysa Info</title>
+
+    <!----------------------------CSS---------------------------->
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 60%;
+            min-width: 600px;
+            height: 60%;
+            min-height: 400px;
+            text-align: center;
+        }
+
+        .inputStyle {
+            width: 100%;
+            height: 30px;
+            padding: 5px;
+        }
+
+        .mapANDopis {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .mapy, .opis {
+            flex-direction: row;
+            width: 400px;
+            height: 400px;
+            margin: 1%;
+            padding: 1%;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+        }
+        .opis{
+            overflow-y: auto;
+        }
+
+        .txt-left {
+            text-align: left;
+        }
+
+        .gm-style-cc {
+            display: none;
+        }
+    </style>
+</head>
+
+<!----------------------------HTML---------------------------->
+
+<body>
+<div class="container">
+    <h1>Kierunki studiów w Państwowej Wyższej Szkoły Zawodowej w Nysie
+    </h1>
+    <form>
+        <select id="lista" class="inputStyle" onchange="onListChange()"></select>
+        <div class="mapANDopis">
+            <div id="map" class="mapy"></div>
+            <div class="opis txt-left" id="info">
+                Opis kierunku...
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXU6pA6ExY5R750LyVZj8cspKD06yngIs&callback=initMap"
+        type="text/javascript"></script>
+
+<!----------------------------JS---------------------------->
+
+<script>
+
+
+    function initMap(mrk) {
+        var zoomen = 13;
+        var centeroriginal = [50.473969,17.336331];
+        var center = [50.473969,17.336331];
+        var coordy = []
+        if (mrk) {
+            zoomen = mrk[2];
+            coordy = [mrk[0], mrk[1]];
+            center = coordy;
+        }else{
+            center = centeroriginal;
+        }
+
+        // Map options
+        var options = {
+            zoom: zoomen,
+            center: {lat: center[0], lng: center[1]},
+            mapTypeControl: false,
+            fullscreenControl: false,
+            streetViewControl: false,
+        }
+
+        // New map
+        var map = new google.maps.Map(document.getElementById('map'), options);
+
+
+        // Array of markers
+        var markers =
+            {
+                coords: {lat: coordy[0], lng: coordy[1]},
+                content: '<h1>( ͡° ͜ʖ ͡°)<br>Baza: ¯\\_(ツ)_/¯</h1>'
+            };
+        console.log(markers.coords);
+
+        if (mrk) {
+            console.log('Dodano punkt');
+            // Add marker
+            addMarker(markers);
+        }
+
+        // Add Marker Function
+        function addMarker(props) {
+            var marker = new google.maps.Marker({
+                position: props.coords,
+                map: map,
+                //icon:props.iconImage
+            });
+
+            // Check for customicon
+            if (props.iconImage) {
+                // Set icon image
+                marker.setIcon(props.iconImage);
+            }
+
+            // Check content
+            if (props.content) {
+                var infoWindow = new google.maps.InfoWindow({
+                    content: props.content
+                });
+
+                marker.addListener('click', function () {
+                    infoWindow.open(map, marker);
+                });
+            }
+        }
+    }
+
+
+    loadDoc();
+
+    function loadDoc() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                myFunction(this);
+            }
+        };
+        xhttp.open("GET", "kierunki.xml", true);
+        xhttp.send();
+    }
+
+    var kList;
+    var ddList = '';
+
+    function myFunction(xml) {
+        var i;
+        var xmlDoc = xml.responseXML;
+        kList = xmlDoc.getElementsByTagName("kierunek");
+        ddList = '<option value="def">Wybierz kierunek</option>';
+        for (i = 0; i < kList.length; i++) {
+            var name = kList[i].getElementsByTagName("nazwa")[0].childNodes[0].nodeValue;
+            ddList += '<option value="' + i + '">' + name + '</option>';
+        }
+        document.getElementById("lista").innerHTML = ddList;
+    }
+
+    function onListChange() {
+        console.log('Zmieniono kierunek.');
+        var id = document.getElementById("lista").value;
+        if (id == 'def') {
+            document.getElementById('info').innerHTML = 'Opis kierunku...';
+            initMap();
+        } else {
+            var i = {
+                'naz': kList[id].getElementsByTagName("nazwa")[0].childNodes[0].nodeValue,
+                'sto': kList[id].getElementsByTagName("stopien")[0].childNodes[0].nodeValue,
+                'sze': kList[id].getElementsByTagName("szerokosc")[0].childNodes[0].nodeValue,
+                'dlu': kList[id].getElementsByTagName("dlugosc")[0].childNodes[0].nodeValue,
+                'spe': kList[id].getElementsByTagName("specjalnosci")[0].childNodes[0].nodeValue,
+                'cza': kList[id].getElementsByTagName("czas")[0].childNodes[0].nodeValue,
+                'try': kList[id].getElementsByTagName("tryb")[0].childNodes[0].nodeValue,
+                'kwa': kList[id].getElementsByTagName("kwalifikacje")[0].childNodes[0].nodeValue,
+                'dzi': kList[id].getElementsByTagName("dziekanat")[0].childNodes[0].nodeValue,
+                'tel': kList[id].getElementsByTagName("telefon")[0].childNodes[0].nodeValue,
+                'rek': kList[id].getElementsByTagName("rekrutacja")[0].childNodes[0].nodeValue
+            }
+            var info = '<b>Nazwa kierunku:</b><br>' + i.naz + '<br><br>'
+                + '<b>Stopień studiów:</b><br>' + i.sto + '<br><br>'
+                + '<b>Specjalności:</b><br>' + i.spe + '<br><br>'
+                + '<b>Casz trwania:</b><br>' + i.cza + '<br><br>'
+                + '<b>Tryb:</b><br>' + i.try + '<br><br>'
+                + '<b>Opis:</b><br>' + i.kwa + '<br><br>'
+                + '<b>Dziekanat:</b><br>' + i.dzi + '<br><br>'
+                + '<b>Telefon:</b><br>' + i.tel + '<br><br>'
+                + '<b>Rekrutacja:</b><br><a href=\"' + i.rek + '\" target=\"_blank\">' + i.rek + '</a>';
+            document.getElementById('info').innerHTML = info;
+            var point = [parseFloat(i.sze), parseFloat(i.dlu), 15];
+            initMap(point);
+        }
+    }
+
+</script>
+</body>
+</html>
